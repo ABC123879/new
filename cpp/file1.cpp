@@ -1,6 +1,7 @@
 #include<iostream.h>
 using namespace std;
+void message()
 {
-	cout<<"Hello from File!"<<endl;
-	return 0;
+	cout<<"This is a message from File 1!"<<endl;
 }
+message();

@@ -1,6 +1,7 @@
 #include<iostream.h>
 using namespace std;
+void farewell()
 {
-	cout<<"Hello from File2!"<<endl;
-	return 0;
+	cout<<"Goodbye from File2!"<<endl;
 }
+farewell();
